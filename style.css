@@ -1,0 +1,353 @@
+.container{
+    width:500px;
+    height:500px;
+    background: #222;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .swiper{
+    width:500px;
+    height:500px;
+  }
+  
+  .swiper-slide{
+    height:100%;
+    width:100%;
+  }
+  
+  .swiper .swiper-butto-prev, .swiper .swiper-button-next{
+    color: #fff;
+  }
+  
+  .swiper .swiper-pagination-bullet-active{
+    background: #fff;
+  }
+  .swiper-wrapper{
+    
+    size-adjust: auto;
+  }
+  #i1{
+    width: 500px;
+    height: 100%;
+  }
+  #i2{
+    width: 500px;
+    height: 100%;
+  }
+  #i3{
+    width: 500px;
+    height: 100%;  
+  }
+  /* #i4{
+    width: 350px;
+    height: 250px;
+  } */
+
+  .mySlides{
+  /* border:1px solid blue; */
+  padding:2em;
+  border-radius:10em;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  }
+ .opener{
+  background-image: url(images/pexels-eberhard-grossgasteiger-2088170.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  overflow: hidden;
+  /* filter: contrast(70%); */
+ }
+ .about{
+  background-image: url(images/pexels-eberhard-grossgasteiger-2088170.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  overflow: hidden;
+  /* filter: contrast(70%); */
+ }
+
+ /* .Gallery{
+  background-image: url(images/pexels-alexander-grey-3713892.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  overflow: hidden;
+ } */
+
+ .myGal{
+  width: 350px;
+  height: 350px;
+  /* border:2px solid blue; */
+  padding:1em;
+  border-radius:8em;
+  box-shadow: black 1px 1px 2px rgba(0,0,0,0);
+ }
+ .myGal:hover{
+  padding:3em;
+  border-radius:8em;
+  filter: grayscale(100%);
+ }
+ #contact-frm{
+  background-image: url(images/pexels-eberhard-grossgasteiger-2088170.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  overflow: hidden;
+ }
+ .headers{
+  font-size: 65px;
+ }
+ /* .logo-pg{
+  background-image: url(images/pexels-anni-roenkae-2832432.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  overflow: hidden;
+ } */
+ .input{
+  background: #f2f2f2;
+  padding: 12px;
+  border-radius: 3px;
+  width: 505px;
+
+}
+
+.input:focus::placeholder{
+  color: #222;
+}
+
+.input::placeholder{
+  color: #222;
+  transition: color 0.3s ease;
+}
+
+/* Side-by-side inputs */
+.input_a{
+  background: #f2f2f2;
+  padding: 12px;
+  border-radius: 3px;
+  width: 250px;
+
+}
+.input_a:focus::placeholder{
+  color: #222;
+}
+
+.input_a::placeholder{
+  color: #222;
+  transition: color 0.3s ease;
+}
+ /* Side-by-side inputs */
+
+.textarea{
+  background: #f2f2f2;
+  padding: 12px;
+  border-radius: 3px;
+  width: 505px;
+  height: 150px;
+}
+* {
+  -webkit-overflow-scrolling: touch;
+}
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.about-pg{
+  width: 610px;
+  height: 500px;
+}
+
+.vidx { 
+  width: 100%;
+  height: 300px;
+  -webkit-transform: scaleX(2); 
+  -moz-transform: scaleX(2);
+  }
+  .vidx:before {
+  background-image: url('http://farm8.staticflickr.com/7212/7329494986_c1191f6e55.jpg') repeat;
+  width:100%;
+  min-height:300px;
+  }
+
+  .vid-dit{
+    width:1200px; height:300px;
+  }
+
+  #abt_cont{
+    background: rgba(255, 255, 255, 0.19);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+  }
+  #abt_cont2{
+    background: rgba(255, 255, 255, 0.19);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+  }
+ 
+ .glass-effect{
+  /* From https://css.glass */
+/* background-image: url(images/pexels-eberhard-grossgasteiger-2088170.jpg);
+background-size: cover;
+background-position: center;
+position: relative;
+overflow: hidden; */
+background: rgba(255, 255, 255, 0.19);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+ } 
+
+ .map {
+  position: relative;
+  width: 35%;
+  height: 850px;
+  background-color: #CCC;
+  margin: 1% 0 0 15%;
+  }
+iframe{
+width: 100%;
+height: 350px;
+filter: invert(100%);
+}
+.features{
+  background-color: rgb(235, 239, 241);
+}
+
+.final{
+background-image: url(images/pexels-eberhard-grossgasteiger-2088170.jpg);
+color:black !important ;
+}
+
+.mySlides{
+  width: 800px;
+    height: 500px;
+}
+#btn-sub{
+    width:505px;
+    height: 65px; 
+    font-size: 35px;
+  }
+  .bottom_logos{
+    width:154px ;
+  }
+  .abt-pic1{
+   height: 550px;
+  }
+  .abt-pic2{
+    width:452px;
+  }
+  .dtx{
+    font-size: 23px;
+  }
+@media only screen and (max-width: 720px) {
+  .bottom_logos{
+    width:54px ;
+  }
+  #detail{
+    font-size: 15px;
+  }
+  .last-txt{
+    font-size: 15px;
+  }
+  .mySlides {
+    width: 300px;
+    height: 200px;
+  }
+  .input:focus::placeholder{
+    color: #222;
+  }
+  #btn-sub{
+    width:300px;
+    height: 65px; 
+    font-size: 25px;
+  }
+  .input::placeholder{
+    color: #222;
+    transition: color 0.3s ease;
+  }
+  
+  /* Side-by-side inputs */
+
+  .input_a{
+    background: #f2f2f2;
+    padding: 12px;
+    border-radius: 3px;
+    width: 150px;
+  
+  }
+  .input{
+    width: 300px;
+  }
+  .input_a:focus::placeholder{
+    color: #222;
+  }
+  
+  .input_a::placeholder{
+    color: #222;
+    transition: color 0.3s ease;
+  }
+   /* Side-by-side inputs */
+  
+  .textarea{
+    background: #f2f2f2;
+    padding: 12px;
+    border-radius: 3px;
+    width: 300px;
+    height: 100px;
+  }
+  * {
+    -webkit-overflow-scrolling: touch;
+  }
+  * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  .myGal{
+    height:160px;
+    width:180px;
+  }
+  .abt-pic1{
+   height: 450px;
+  }
+  .abt-pic2{
+    width: 382px;
+  }
+  .vidx { 
+    width: 100%;
+    height: 150px;
+    -webkit-transform: scaleX(2); 
+    -moz-transform: scaleX(2);
+    }
+    .vidx:before {
+    background-image: url('http://farm8.staticflickr.com/7212/7329494986_c1191f6e55.jpg') repeat;
+    width:100%;
+    min-height:150px;
+    }
+  .vid-dit{
+    width:auto; height:150px;
+  }
+  .dtx{
+    font-size: 13px;
+  }
+  .headers{
+    font-size: 45px;
+   }
+   .myGal:hover{
+    padding:1em;
+    border-radius:8em;
+    filter: grayscale(100%);
+   }
+}

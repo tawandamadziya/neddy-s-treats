@@ -1,0 +1,306 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/38a2f9103f.js" crossorigin="anonymous"></script>
+    <title>Neddy's Treats</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="motion.js">
+</head>
+
+<body>
+    <div>
+        <div class="logo-pg" style="background-color:lightcoral;">
+            <center>
+                <br></br>
+
+                <h1 style="font-family:'Courier New', Courier, monospace; background: transparent; font-size:50px">
+                    <img src="images/Screenshot (5).png" style="width: 152px;"> Neddy's
+                    Treats
+                </h1>
+                <p>------------------------------------------------------------------------------------------------------------
+                </p>
+            </center>
+        </div>
+        <div class="h-page">
+            <section class="background-sec">
+                <nav class="navbar navbar-expand-lg bg-light">
+                    <div class="container-fluid">
+                        <!-- <a class="navbar-brand" href="#">Navbar w/ text</a> -->
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarText" style="background: transparent;">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp;
+                                &nbsp;
+                                &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp;
+                                &nbsp;&nbsp;
+                                &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp;
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">About</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Get a Quote</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Products</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Contact</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Privacy Policy</a>
+                                </li>
+                            </ul>
+
+
+                        </div>
+                    </div>
+                </nav>
+
+        </div>
+        <div class="opener">
+            <center>
+                <br></br>
+                <h1 class="w3-center w3-animate-zoom"
+                    style="font-size: 60px; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif">
+                    Welcome
+                    to Neddy's Treats</h1>
+                <p class="w3-center w3-animate-zoom"
+                    style="font-size: 40px; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif">A
+                    Lifetime of Flavours</p>
+            </center>
+            <center>
+                <div>
+
+                    <div class="w3-content w3-display-container w3-card" style="filter: contrast(100%);">
+                        <img class="mySlides" src="images/c1.jpeg" >
+                        <img class="mySlides" src="images/c2.jpeg" >
+                        <img class="mySlides" src="images/c3.jpeg" >
+                        <!-- <img class="mySlides" src="images/c4.jpeg" style="width: 800px; height:500px"> -->
+                        <img class="mySlides" src="images/c5.jpeg" >
+                        <img class="mySlides" src="images/c6.jpeg" >
+
+
+
+                    </div>
+
+                    <script>
+                        var slideIndex = 0;
+                        carousel();
+
+                        function carousel() {
+                            var i;
+                            var x = document.getElementsByClassName("mySlides");
+                            for (i = 0; i < x.length; i++) {
+                                x[i].style.display = "none";
+                            }
+                            slideIndex++;
+                            if (slideIndex > x.length) { slideIndex = 1 }
+                            x[slideIndex - 1].style.display = "block";
+                            setTimeout(carousel, 4000); // Change image every 4 seconds
+                        }
+                    </script>
+
+                </div>
+            </center>
+            <br></br>
+            <!-- <br></br> -->
+        </div>
+        <center>
+            <div class="about">
+                <div style="background-color: white;">
+                    <H1 class="headers" >About us</H1>
+                </div>
+                <div class="row mt-5">
+                    <p>&nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p>
+                    <div class="col ml-4-center" style="height: 500px;">
+                        <br></br>
+                        <br></br>
+
+                        <h1 style="font-size: 38px text; text-decoration-line: underline;">Who am I?</h1>
+                        <p class="dtx" > I am a passionate baker who has been baking for since 2015. I
+                            specialize in all types of cakes from wedding cakes down to birthday muffins. Baking to me
+                            is not a way to make income, but a way to make your day a successful one whether birthday or
+                            wedding.</p>
+                    </div>
+
+                    <br></br>
+                    <div class="col ml-4-center w3-card" id="abt_cont2">
+                        <img  class="abt-pic1" src="images/mt2.jpeg" style="overflow:hidden;">
+                    </div>
+                </div>
+
+                <div class="row mt-5">
+                    <p>&nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p>
+                    <div class="col ml-4-center w3-card" id="abt_cont">
+                        <br></br>
+                        <br></br>
+                        <img class="abt-pic2" src="images/mt1.jpeg" style="overflow:hidden; ">
+                    </div>
+
+                    <br></br>
+                    <div class="col ml-4-center" style="height: 400px;">
+                        <h1  style="font-size: 38px text; text-decoration-line: underline;">More about me?</h1>
+                        <p class="dtx"> As I continue my professional journey, I like to think of my career
+                            as
+                            one big learning
+                            experience that
+                            continuously grows with each project and collaboration. With a dedication to functionality
+                            and a
+                            curiosity for what’s ahead of the curve, I keep my work practical, relevant and creative.
+                            Feel free to contact for any questions </p>
+                    </div>
+                </div>
+            </div>
+            <div style="background-color:pink;" class="vidx"><video class="vid-dit" autoplay muted
+                    src="images/UPBEAT Cooking _ Food Background Music No Copyright.mp4"></video></div>
+        </center>
+        <center>
+            <div style="background-color:white;">
+                <h1 class="headers" >Our products</h1>
+            </div>
+        </center>
+        <center>
+            <div class="glass-effect">
+                <div class="Gallery">
+                    <br></br>
+                    <img class="myGal" src="images/c1.jpeg">
+                    <img class="myGal" src="images/c3.jpeg">
+                    <img class="myGal" src="images/c5.jpeg">
+                    <!-- <img class="myGal" src="images/c4.jpeg" style="width: 800px; height:500px"> -->
+                    <img class="myGal" src="images/c15.jpg">
+                    <!-- <img class="myGal" src="images/c6.jpeg" > -->
+
+                </div>
+                <div class="Gallery">
+                    <br></br>
+                    <img class="myGal" src="images/c10.jpg">
+                    <img class="myGal" src="images/c11.jpg">
+                    <img class="myGal" src="images/c12.jpg">
+                    <!-- <img class="myGal" src="images/c4.jpeg" style="width: 800px; height:500px"> -->
+                    <img class="myGal" src="images/c13.jpg">
+                    <!-- <img class="myGal" src="images/c6.jpeg" > -->
+                </div>
+            </div>
+        </center>
+
+        <center>
+            <div class="row mt-5" id="contact-frm" >
+                <div style="background-color:white;">
+                    <h1 class="headers" >Contact Info</h1>
+                </div>
+                <p>&nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p>
+                <div class="col ml-4-center" style="height: 500px;">
+                    <i id="brand-img" class="fa-brands fa-whatsapp fa-4x"></i>
+                    <h1 id="detail" style="color: red;">Whatsapp/ message</h1>
+                    <p style="font-size:25px;">Contact:</p>
+                    <ul style="font-size:25px;">
+                        <div id="detail">078 027 8064</div>
+                        <div id="detail"> Neddycakes01@gmail.com</div>
+                    </ul>
+                </div>
+                <br></br>
+                <div class="col ml-4-center">
+                    <form method="POST" class="contact-form">
+                        <i id="brand-img" class="fa-solid fa-envelope-circle-check fa-4x"></i>
+                        <h1 class:"mt-3" style="color: red;">Contact Form</h1>
+                        <div>
+                            <input type="text" class="input" name="name" placeholder="Full Name" required>
+                        </div>
+                        <div>
+                            <input type="text" class="input" name="name" placeholder="Address" required>
+                        </div>
+                        <div>
+                            <input type="email" class="input_a" name="email" placeholder="Email Address" required>
+                            <input type="text" class="input_a" name="phone" placeholder="Phone Number" required>
+                        </div>
+                        <div>
+                            <input type="text" class="input" name="name" placeholder="Subject" required>
+                        </div>
+                        <input type="hidden" class="input" name="_subject" value="New submission!">
+                        <textarea class="textarea" name="Message" placeholder="Message" required></textarea>
+                        <div><input class="btn btn-primary" type="submit" id="btn-sub" value="Submit !">
+                        </div>
+
+                    </form>
+
+                    <script src="https://smtpjs.com/v3/smtp.js"></script>
+
+                    <script>
+                        const form = document.querySelector(".contact-form");
+                        form.addEventListener("submit", e => {
+                            e.preventDefault();
+                            let name = document.querySelector(".name").value;
+                            let email = document.querySelector(".email").value;
+                            let phone = document.querySelector(".phone").value;
+                            let _subject = document.querySelector("._subject").value;
+
+
+
+
+                            document.querySelector(".contact-form").reset();
+
+                            sendEmail(name, email);
+                        })
+                        function sendEmail(name, email) {
+                            Email.send({
+
+                                Host: "smtp.elasticemail.com",
+                                Username: "Simba.Hydraulics@gmail.com",
+                                Password: "5D8F6D6382C487B9FF1FA615DC37C5F124F1",
+                                To: "Magidiprince9@gmail.com",
+                                From: "Simba.Hydraulics@gmail.com",
+                                Subject: `${name} Just messaged you from the website form`,
+                                Body: `Name: ${name} <br> Email: ${email} <br>`,
+                            }).then((success) => {
+
+                                alert("message sent successfully. Please check the spam folder in your mail.");
+                            }).catch((error) => {
+
+                                alert("error sending message");
+                            })
+                        }
+                    </script>
+                </div>
+            </div>
+        </center>
+        <div class="maps">
+            <br></br><br></br>
+            <center><iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26466.686672177468!2d18.435503643345914!3d-33.98390665709565!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1dcc42c52081a7cb%3A0x79fbdc90a0e82eac!2sClaremont%2C%20Cape%20Town%2C%207708!5e0!3m2!1sen!2sza!4v1663318045807!5m2!1sen!2sza"
+                    width="auto" height="auto" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe></center>
+        </div>
+        <center>
+            <div class="final">
+                <br></br>
+                <h1 class="last-txt"><img class=" bottom_logos" src="images/Screenshot (5).png" >
+                    &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;Neddy's Treats
+                    &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                    <img class=" bottom_logos" src="images/tnt.png" >
+                </h1>
+                <p>mtawanda100123@gmail.com</p>
+                <p>&copy;2015 by Neddy's Treats. Produced by TNT Tech Solutions </p>
+            </div>
+            
+        </center>
+    </div>
+    </div>
+    </section>
+    </div>
+</body>
+
+</html>
